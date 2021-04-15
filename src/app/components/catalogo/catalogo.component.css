@@ -1,0 +1,14 @@
+
+h5.card-title, .card-body  {
+    text-align: center;
+}
+p.card-text.pokedex-number {
+    color: grey;
+    font-size: 14px;
+}
+
+.card {
+    margin: 45px;
+    height: 480px;
+    max-width: 100%;
+}

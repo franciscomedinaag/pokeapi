@@ -1,0 +1,14 @@
+<div class="container">
+    <div  class="row">
+        <div class="col-sm-4" *ngFor="let pokemon of pokemons;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" [src]="pokemon?.sprites?.front_default" alt="Cargando...">
+                <h5 class="card-title">{{pokemon?.name | titlecase}}</h5>
+                <div class="card-body">
+                  <p *ngFor="let type of pokemon.types" class="card-text pokedex-number">{{type.type.name | uppercase}}</p>
+                  <p class="card-text pokedex-number"># {{pokemon?.id}}</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>

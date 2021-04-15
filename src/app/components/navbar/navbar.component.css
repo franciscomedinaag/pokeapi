@@ -1,0 +1,8 @@
+nav.navbar.navbar-light.bg-light {
+    background-color: rgb(226 226 226) !important;
+}
+
+a.navbar-brand > img {
+    width: 60px;
+    height: 60px;
+}
