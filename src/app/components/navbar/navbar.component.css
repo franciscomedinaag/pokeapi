@@ -6,3 +6,9 @@ a.navbar-brand > img {
     width: 60px;
     height: 60px;
 }
+
+a.nav-link {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0a3255 !important;
+}

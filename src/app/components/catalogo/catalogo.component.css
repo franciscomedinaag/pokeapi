@@ -1,6 +1,7 @@
 
 h5.card-title, .card-body  {
     text-align: center;
+    color:black;
 }
 p.card-text.pokedex-number {
     color: grey;
@@ -8,7 +9,28 @@ p.card-text.pokedex-number {
 }
 
 .card {
-    margin: 45px;
-    height: 480px;
+    margin: 15px auto;
+    height: 405px;
     max-width: 100%;
 }
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0px;
+}
+
+.disabled{
+    color:rgb(192, 192, 192);
+    text-decoration: none;
+}
+
+a{
+    cursor: pointer;
+    text-decoration-color: black;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 13px 0px #00000054;
+}
+
