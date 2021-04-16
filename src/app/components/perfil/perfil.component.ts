@@ -15,7 +15,7 @@ export class PerfilComponent implements OnInit {
   }
 
   downloadPdf() {
-    const pdfUrl = '../../../assets/Jose_Francisco_Medina_Aguayo_CV.pdf';
+    const pdfUrl = 'assets/Jose_Francisco_Medina_Aguayo_CV.pdf';
     const pdfName = 'Jose_Francisco_Medina_Aguayo_CV.pdf';
     FileSaver.saveAs(pdfUrl, pdfName);
   }
